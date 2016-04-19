@@ -10,11 +10,10 @@ body{
 }
 
 @media (min-width: 992px) {
-.col-lg-4,{
-  float:left;
-}
+
 .col-lg-4{
   width: 33.33%;
+  float:left;
 }
 
 }
@@ -23,7 +22,7 @@ body{
 /********** Medium devices  **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-4,
-  .col-md-6, {
+  .col-md-6 {
     float: left;    
   }
   .col-md-4 {
@@ -38,7 +37,8 @@ body{
 
   /********** Small devices **********/
 @media (max-width: 767px){
-  .col-md-12 {
+  .col-sm-12 {
+    float:left;
     width: 100%;
   }
 }
