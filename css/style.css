@@ -1,7 +1,8 @@
 
-* {
+*{
   box-sizing: border-box;
 }
+
 body{
   background-color: #6ac7b4;
   margin: 0;
@@ -59,30 +60,35 @@ h1{
   margin: 45px 0;
 }
 
-section{
-  background-color: #99d7cb;
-  border: 10px solid #6ac7b4;
-  padding: 0 40px 0;
+.wrap{
+  background-color: #e3e3e3;
+  border: 4px solid #666;
+  float: left;
+  margin: 10px;
 }
 
+
 section>h3{
+  margin:0px;
+  padding: 10px;
   background-color: #e5f3f1;
-  float: right;
   color: #ef59a4;
   font-family: tahoma;
   font-size: 1.5em;
-  padding: 10px;
+  float: right;
   clear: both;
-  border: 1px solid #ffe345;
-  margin-right: 10px;
+  border: 4px solid #ffe345;
+  position: relative;
+  top: -4px;
+  left: 4px;
 }
-
-p{
+section>p{
+  margin: 0px;
+  padding: 10px;
+  float: left;
   font-family: georgia;
   font-size: 1.5em;
   line-height: 1.5em;
   clear: right;
   color: #303C50;
 }
-
-
